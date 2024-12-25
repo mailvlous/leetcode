@@ -15,7 +15,7 @@ int main() {
     int target;
     scanf("%d", &target);
 
-    int *result = twoSum(nums, numsSize, target);
+    int *result = twoSum(nums,numsSize, numsSize, target);
 
 
     if (result) {
